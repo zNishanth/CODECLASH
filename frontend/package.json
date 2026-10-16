@@ -1,0 +1,17 @@
+{
+  "name": "spaceind-digital-twin-frontend",
+  "version": "6.2.0",
+  "description": "Green Building Digital Twin 3D BIM Dashboard (Vercel Frontend)",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "digital-twin",
+    "threejs",
+    "bim",
+    "vercel",
+    "yolov8"
+  ],
+  "author": "Nishanth M",
+  "license": "MIT"
+}

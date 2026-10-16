@@ -1,0 +1,38 @@
+# ==========================================
+# Git Ignore Rules for SpaceInd / CODECLASH
+# ==========================================
+
+# Secrets and Environment Variables (NEVER commit these!)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Node / Frontend
+node_modules/
+.vercel
+dist/
+build/
+.npm
+
+# IDE / OS Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
